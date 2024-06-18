@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Note {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .completed {
+        text-decoration: line-through;
+    }
+
+    p {
+        margin: 2px 5px;
+    }
+
+    .deleteCardIcon {
+        background: none;
+        border: none;
+    }
+}
